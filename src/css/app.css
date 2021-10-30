@@ -7,19 +7,29 @@
   top: 0;
   right: 0;
   bottom: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #app .container {
   width: 376px;
   height: 666px;
   z-index: 100;
-
-  background: white;
+  background: linear-gradient(
+    170deg,
+    #e9f9e8 10.65%,
+    #94e18f 51.83%,
+    #54cf4c 90%
+  );
+  
   border-radius: 3px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
 }
 
 #app .container-view {
-  padding: 20px;
+  padding: 10px 20px 10px 13px;
+  height: 80%;
+  border-radius: 20px 20px 0px 0px;
+  border-top: 1.5px solid #2ac420;
+  
 }
 
