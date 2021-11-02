@@ -2,27 +2,36 @@
 
     width: 100%;
     height: 100%;
-    
+  
     
 }
 .header-main-body{
     display: flex;
     height: 30px;
-    padding: 0px 0px 0px 50px;
-    border-radius: 10px;
-    border-bottom: 1.5px solid #2ac420;
+    padding: 5px;
+    border-radius: 20px;
+    border-top: 2px solid #e9f9e8;
+
 }
 
 .icon{
     flex: 0.1; 
     
 }
+.archive-unarchive{
+    flex: 0.1; 
+    margin-right: 5px;
+    color: #2ac420;
+    
+}
 .title{
+    
     flex: 1;
-    text-align: center;
-    font-size: 15pt;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 14pt;
     padding-top: 4px ;
-  
+    padding-left: 10px;
 }
 
 .tabs-main{
@@ -35,8 +44,8 @@ display: flex;
 margin: 5px 20px 5px 20px;
 height: 30px;
 border-radius: 10px;
-    border-top: 1.5px solid #2ac420;
-    border-bottom: 1.5px solid #2ac420;
+    border-top: 1.5px solid #e9f9e8;
+    border-bottom: 1.5px solid #e9f9e8;
 }
 
 .tab-options{
@@ -46,19 +55,191 @@ border-radius: 10px;
     text-align: center;
     padding-top: 8px;
     cursor: pointer;
+    font-size: 11pt;
+    border-radius: 10px;
     
 }
-.tab-options:hover{
-    transform: scale(1.15);
-}
+
 
 
 .main-body-list{
+overflow-y: scroll;
+height: 100%;
+max-height: 400px;
+margin-top: 10px;
+padding: 15px;
+}
 
-border: 1px solid black;
-margin: 15px 20px 15px 20px;
-height: 460px;
+::-webkit-scrollbar{
+    width: 5px;
 
+}
+
+.activity-detail{
+    height: 100%;
+}
+
+.date-call{
+    
+    padding: 2px;
+    text-align: left;
+   font-size: 8pt;
+   margin-top:10px;
+}
+.call-log{
+    
+  
+    font-size: 12pt;
+    display: flex;
+    padding: 7px 5px 10px 5px;
+    border-radius: 8px;
+    border-bottom: 1px solid #2ac420;
+    margin-left: -10px;
+    margin-right: -13px;
+   
+}
+.call-log:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.call-log-status{
+   
+   padding-top: 3px;
+    flex: 1;
+}
+
+.call-from{
+   
+    color: green;
+    font-size: 8pt;
+    margin-top: 5px;
+    
+}
+
+.call-log-info{
+    
+       flex: 6;
+}
+.time{
+    
+    flex: 2;
+    font-size: 9pt;
+    padding-top: 10px;
+    text-align: center;
+    
+   
+}
+.mark{
+    flex: 1;
+    text-align: right;
+    padding-top: 3px;
+    
+}
+.callDetail{
+    flex: 0.7;
+    
+}
+.callDetailInfo{
+height:50px;
+width: 100%;
+background: #d4f3d2;
+border-radius: 0px 0px 8px 8px;
+display: flex;
+border-bottom: 1px solid #2ac420;
 
 
 }
+
+.callDetailInfoRest{
+    color: black;
+    flex: 1;
+    margin: 7px 0 0 25px;
+}
+.callMethods{
+    flex: 0.90;
+    display: flex;
+    align-items: center;
+    margin-right: 1px;
+    
+}
+.callMethodsIcon{
+    flex: 1;
+    height: 45%;
+    
+}
+.callMethodsIcon:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.callDetail:hover{
+    color:#FF00EC;
+    
+}
+.voiceMail{
+    color: blue;
+    font-size: 18pt;
+}
+.missedCall{
+    color: red;
+    font-size: 18pt;
+}
+
+.callMade{
+    color: #2ac420;;
+    font-size: 18pt;
+}
+
+
+.marked-unmarked{
+    color: #2ac420; 
+    font-weight: bold; 
+}
+.marked-unmarked:hover{
+    color: #FF00EC;
+}
+
+
+.reset-button{
+    height: 30px;
+margin: -40px 15px 5px 15px;
+align-items: center;
+}
+.reset-button-frame{
+   
+    width: 20%;
+    height: 70px;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5px;
+    background-color: #e9f9e8;;
+    animation-name: example2;
+     animation-duration: 10s;
+    
+}
+
+@keyframes example2 {
+    20%   {background-color: #e9f9e8;}
+    50%  {background-color: #FF00EC;}
+    60%  {background-color: #FF00EC;}
+    80%  {background-color: #2ac420;}
+    100%  {background-color: #e9f9e8;}
+    
+  }
+
+.reset-button-main{
+  
+    border-radius: 50px;
+    height:98%;
+    width: 100%;
+    background-color: #2ac420;
+    color: white;
+    font-size: 12pt;
+    cursor: pointer;
+    
+}
+
+
+

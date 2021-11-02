@@ -6,8 +6,10 @@ import BodyComp from './BodyComp.jsx';
 const App = () => {
   return (
     <div className='container'>
-      <Header />
-      <BodyComp />
+      
+        <Header />
+        <BodyComp />
+      
     </div>
   );
 };

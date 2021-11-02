@@ -12,16 +12,21 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "axios": "^0.24.0",
     "html-webpack-plugin": "^5.5.0",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "moment": "^2.29.1",
+    "react": "^18.0.0-alpha-9c8161ba8-20211028",
+    "react-dom": "^18.0.0-alpha-9c8161ba8-20211028",
     "react-icons": "^4.3.1",
-    "webpack-dev-middleware": "^5.2.1"
+    "regenerator-runtime": "^0.13.9"
   },
   "devDependencies": {
     "babel-core": "6.26.*",
-    "babel-loader": "7.1.*",
-    "babel-preset-env": "1.7.0",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "6.24.*",
     "css-loader": "2.1.*",
     "html-loader": "0.5.*",
