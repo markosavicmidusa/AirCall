@@ -85,7 +85,23 @@ padding: 15px;
     text-align: left;
    font-size: 8pt;
    margin-top:10px;
+   display: flex;
 }
+
+.date-call-moment{
+    
+  flex: 1;
+}
+.date-call-archive-unarchive{
+    justify-content: right;
+    margin-right: 15px;
+    color : #FF00EC;
+    flex: 0.8;
+    font-size: 10pt;
+    display: none;
+}
+
+
 .call-log{
     
   
